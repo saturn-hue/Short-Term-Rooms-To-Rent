@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/flat.jpg");;
+    margin: 0;
+    width: 0 auto;
+    height: 100%;
+    opacity:1;
+    cursor: pointer;
+    padding: 200px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-position: center;
+    color: white;    
+    font-size: 24px;
+    letter-spacing: 2px; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    
+}
+
+
+h1:hover {
+    color:transparent;
+    
+}
+
+p:hover {
+    color:transparent;
+}
+
+ #btn {  
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 32px;
+    border: none;  
+    position:absolute;
+    cursor: pointer;
+  
+
+}
+
+#btn:hover {
+    background: none;
+    color: white;
+    border: none;
+      
+}
+
+.detail {
+    color: white;
+
+}
+    .container , .footer-bottom {
+    color: white;
+}
+
+
+  @media only screen and (min-width: 480px) and (max-width:767) {
+    .container{
+      resize: vertical;
+    }
+     
+    p {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #btn {
+        display: flex;
+        justify-content: center;
+    }
+
+
+   
+  }
